@@ -1,0 +1,5 @@
+IP: 158.160.196.202;
+name_taski: https://taski.yourdomain.com;
+name_kittygram: https://kittygram.yourdomain.com;
+login: admin;
+password: your_superadmin_password;
