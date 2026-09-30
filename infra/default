@@ -1,0 +1,32 @@
+server {
+    listen 80;
+    server_name _;
+
+    client_max_body_size 20M;
+
+    location / {
+        root /var/www/kittygram;
+        index index.html index.htm;
+        try_files $uri $uri/ /index.html;
+    }
+
+    location /api/ {
+        proxy_pass http://127.0.0.1:8080;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+    }
+
+    location /admin/ {
+        proxy_pass http://127.0.0.1:8080;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+    }
+
+    location /static_backend/ {
+        alias /var/www/kittygram/static_backend/;
+    }
+
+    location /media/ {
+        alias /var/www/kittygram/media/;
+    }
+}
