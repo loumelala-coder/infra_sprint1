@@ -1,5 +1,6 @@
-IP: 158.160.196.202;
-name_taski: https://loumelala-taski.duckdns.org;
-name_kittygram: https://loumelala-kittygram.duckdns.org;
-login: admin;
-password: admin123;
+IP: 89.169.164.5;
+name_taski: https://babybear.myddns.me/;
+name_kittygram: https://catsonlynodogs.myddns.me/;
+login: babybear;
+password: 111;
+
