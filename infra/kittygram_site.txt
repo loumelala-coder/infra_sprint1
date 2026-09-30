@@ -1,5 +1,5 @@
-IP: 158.160.196.202;
-name_taski: https://loumelala-taski.duckdns.org/;
-name_kittygram: https://loumelala-kittygram.duckdns.org/;
-login: admin;
-password: SuperSecret123;
+IP:158.160.196.202;
+name_taski:https://loumelala-taski.duckdns.org;
+name_kittygram:https://loumelala-kittygram.duckdns.org;
+login:admin;
+password:admin123;
